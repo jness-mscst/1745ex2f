@@ -1,0 +1,156 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 2
+   Tutorial Case
+
+   CAMShots Style Sheet
+   Author: Jessica Meldahl
+   Date:   12/15/2014
+
+   Filename:         lylestyles.css
+   Supporting Files: none
+
+*/
+
+@font-face {
+   font-family: 'CloisterBlack';
+   src: url('CloisterBlack.eot');
+   src: local('☺'), 
+        url('CloisterBlack.woff') format('woff'), 
+        url('CloisterBlack.ttf') format('truetype'), 
+        url('CloisterBlack.svg#cloister') format('svg');
+}
+
+/* Body Styles */
+body {
+	line-height: 1.5em;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Header Styles */
+header {
+	text-align: center;
+}
+
+/* Navigation Styles */
+nav ul li{
+	list-style-type: none;
+	font-size: 1em; 
+	font-weight: bold; 
+	background-color: rgb(147,147,147); 
+	line-height: 2em; 
+	text-align: center;
+}
+
+nav ul li:hover {
+	background-color: rgb(0,155,90); 
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Section Styles */
+section ul li {
+	list-style-image: url(bluewheel.png);
+	font-size: 0.7em;
+}
+
+section p {
+	font-size: 0.9em;
+	text-align: justify;
+	line-height: 1.4em;
+}
+
+section h1 {
+	font-size: 2em;
+	letter-spacing: 0.2em;
+	text-align: right;
+}
+
+section article h1 {
+	font-size: 1.1em;
+	text-align: left;
+	letter-spacing: 0.4em;
+	font-weight: normal;
+	color: rgb(4, 88, 169);
+}
+
+section.full p {
+	font-size: 0.8em;
+	text-align: justify;
+	line-height: 1.6em;
+}
+
+/* Aside Styles */
+aside h1 {
+	font-size: 1.1em;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.1em;
+}
+
+aside figure figcaption {
+	line-height: 1em;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.7em;
+}
+
+aside li {
+	font-size: 0.8em;
+	line-height: 1.1em;
+}
+
+/* Footer Styles */
+footer {
+	text-align: center;
+}
+
+footer address {
+	font-size: 0.9em;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+/* HGroup Styles */
+h2 {
+	font-size: 1.75em;
+	letter-spacing: 0.1em;
+	color: rgb(0,155,90);
+}
+
+article h2 {
+	color: rgb(0,155,90); 
+	line-height: 0.5em; 
+	letter-spacing: 0.1em; 
+	font-size: 1.75em; 
+	font-weight: bold; 
+}
+
+section h2 {
+	font-size: 1.75em;
+	letter-spacing: 0.1em;
+	line-height: 0.5em;
+	color: rgb(0,155,90);
+	font-weight: bold;
+}
+
+section h3 {
+	background-color: rgb(0, 155,90);
+	background-color: rgba(0,155,90, 0.8);
+	line-height: 2em;
+	text-indent: 1em;
+	margin-bottom: 0.6em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+section article h2+p:first-of-type:first-letter {
+	font-size: 1.5em;
+}
+
+section article h3+p:first-of-type:first-letter {
+	font-size: 1.5em;
+}

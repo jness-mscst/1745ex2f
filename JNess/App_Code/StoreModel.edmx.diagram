@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="80e17e058f914c5aa0236bb7b8c8383a" Name="Diagram1">
+        <EntityTypeShape EntityType="Halloween2012Model.Category" Width="1.5" PointX="0.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Halloween2012Model.Customer" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Halloween2012Model.Invoice" Width="1.5" PointX="5.125" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Halloween2012Model.LineItem" Width="1.5" PointX="5.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Halloween2012Model.Product" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="Halloween2012Model.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="Halloween2012Model.FK_Invoices_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Halloween2012Model.FK_LineItems_Invoices" ManuallyRouted="false" />
+        <AssociationConnector Association="Halloween2012Model.FK_LineItems_Products" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

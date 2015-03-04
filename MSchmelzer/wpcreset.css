@@ -1,0 +1,28 @@
+/*
+   New Perspectives on HTML
+   Exercise 3C
+   Author: Mike Schmelzer
+   Date:   12/13/2014
+
+   Filename:         wpcreset.css
+   Supporting Files: none
+
+*/
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, image, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+}
+
+/* Set the default page element styles */
+body * {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	list-style: none;
+	margin: 0em;  
+	padding: 0em; 
+	vertical-align: baseline;
+}
+

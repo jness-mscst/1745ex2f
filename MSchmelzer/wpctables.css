@@ -1,0 +1,85 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Tutorial Case
+
+   Tables Style Sheet
+   Author: Mike Schmelzer
+   Date:   12/6/2014
+
+   Filename:         tables.css
+   Supporting Files: 
+
+*/
+
+/*Styles for the calendar table pg 353-360,363*/
+table.calendar {
+	border: 10px outset rgb(191,135,90);
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .75em;
+	width: 100%;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+table.calendar th, table.calendar td {
+	border: 1px solid gray;
+}
+
+/*Table header styles*/
+table.calendar thead {
+	background-color: rgb(191,135,90);
+	color: white;
+	color: rgba(255,255,255,0.8);
+}
+
+/*Style for the columns not Sunday or Thursday pg 364*/
+table.calendar col.dayCols {
+	width: 13%;
+}
+
+/*Style for the columns Sunday and Thursday pg 364*/
+table.calendar col.eventCols {
+	width: 13%;
+	background-color: rgb(251,242,182);
+}
+
+/*Style for table rows pg 365-366*/
+table.calendar thead tr {
+	height: 3em;
+}
+
+table.calendar thead th {
+	vertical-align: middle;
+	font-weight:bold;
+}
+
+/*Table body styles*/
+table.calendar tbody tr {
+	height: 4em;
+}
+
+table.calendar tbody td {
+	padding: 0.3em;
+	vertical-align: top;
+	height: 8em;
+}
+
+/* style cells without a date */
+table.calendar tbody td.blank {
+	background-color: rgb(198,198,198);
+}
+
+/* style days that have events other than Sun or Thurs */
+table.calendar tbody td.event {
+	background-color: rgb(251,242,182);
+}
+
+/*Styles for the table caption*/
+table.calendar caption {
+	text-align: left;
+	caption-side: bottom;
+}
+
+
